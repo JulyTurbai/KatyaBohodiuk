@@ -1,0 +1,123 @@
+:root {
+ 
+  --color-bg-light: #FADAD9;    
+  --color-bg-green: #DCE2CA;    
+  --color-accent: #E0959C;      
+  
+  
+  --color-text-main: #2C351E;   
+  --color-text-dark: #1A1A1A;   
+  --color-white: #FFFFFF;
+  
+  
+  --font-main: 'Montserrat', 'Segoe UI', sans-serif; 
+}
+
+body {
+  background-color: #F8F2F2;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* header */
+
+
+.header {
+    width: 100%;
+    background-color: #FADAD9;
+    color: #412726;
+}
+
+.menu  {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    color: #412726;
+    background-color: #F4ADAF;
+    cursor: pointer;
+}
+
+.main-button:hover{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #D98B8D;
+    cursor: pointer;
+}
+
+
+/* hero */
+
+.hero {
+    margin-top: 100px;
+}
+
+.glass-block {
+    border-radius: 30px;
+    padding: 40px 0 0 0;           
+    position: relative;
+    overflow: hidden;   
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    box-shadow: 0 10px 40px rgba(226, 149, 156, 0.06);
+}
+
+.photo {
+    width: 550px;
+    height: 820px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.glass-block::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('img/backPhoto.png'); 
+    background-size: 110%;
+    background-position: center top 10%; 
+    background-repeat: no-repeat;
+    background-color: rgba(247, 228, 227, 0.4); 
+    background-blend-mode: overlay; 
+    filter: blur(1px); 
+    z-index: 1; 
+}
+
+.glass-block > * {
+    position: relative;
+    z-index: 2; 
+}
+
+.doctor-img {
+    width: 100%;
+    height: auto;
+    max-height: 550px;
+    object-fit: cover;
+    margin-top: auto; 
+    border-bottom-left-radius: 29px;  
+    border-bottom-right-radius: 29px;
+}
+
+.photo__card {
+    margin-top: 30px;
+}
