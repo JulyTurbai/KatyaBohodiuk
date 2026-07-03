@@ -1,4 +1,5 @@
 :root {
+    
  
   --color-bg-light: #FADAD9;    
   --color-bg-green: #DCE2CA;    
@@ -14,7 +15,12 @@
 }
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #2f1918
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 body, h1, h2, h3, h4, p, ul, ol {
     margin: 0;
@@ -26,6 +32,13 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  font-family: quicksand;
+  font-weight: 300;
+}
+
+
+html {
+    scroll-behavior: smooth; 
 }
 
 .container {
@@ -49,6 +62,10 @@ body {
     align-items: center;
 }
 
+.menu__name h2 {
+    font-weight: 400;
+}
+
 .main-button {
     width: 200px;
     height: 50px;
@@ -58,6 +75,10 @@ body {
     background-color: #F4ADAF;
     cursor: pointer;
     transition: box-shadow 5s ease; 
+    text-decoration: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-button:hover {
@@ -101,12 +122,20 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-weight: bold;
+}
+
+.photo-block__title {
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .social {
     grid-column: 2;
     grid-row: 1;
-    width: 100%;
     max-width: 520px; 
 }
 
@@ -120,6 +149,7 @@ body {
     align-items: center;
     justify-self: end; 
     font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -181,8 +211,6 @@ body {
 
 .social-items__item {
     width: 70px;
-
-
     height: 70px;
     border-radius: 50%; 
     display: flex;
@@ -280,7 +308,7 @@ body {
     margin-top: 150px;
 }
 
-.service .description {
+.service__description {
     width: 100%;
     display: flex;
     justify-content: end;
@@ -319,7 +347,7 @@ body {
 
 
 .questions {
-    margin-top: 300px;
+    margin-top: 350px;
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -456,6 +484,7 @@ body {
 
 .article__info {
     width: 700px;
+    height: 300px;
     background-color: #cad5a9;
     border-radius: 30px;
     padding: 30px;
@@ -485,36 +514,44 @@ body {
 /* contacts */
 
 .contacts {
-    margin-top: 370px;
+    margin-top: 290px;
 }
 
 .contacts-block {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .contacts__title {
-    margin-right: 100px;
+    margin-right: 310px;
     margin-bottom: 20px;
 }
 
-.contacts__info{
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    background-color: #FADAD9;
+.contacts__wrapp {
     width: 550px;
     border-radius: 30px;
     margin-right: 100px;
+    background-color: #FADAD9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts__info{
+    width: 370px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 .contacts__phone {
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .contacts__img {
@@ -528,5 +565,62 @@ body {
     left: 90px;
     top: -35px;
 }
+
+
+/* schedule */
+
+.schedule {
+    margin-top: 200px;
+}
+
+.schedule__title {
+    margin-bottom: 50px;
+}
+
+.schedule__info {
+    width: 550px;
+    height: 200px;
+}
+
+.schedule__text {
+    margin-bottom: 40px;
+}
+
+.schedule__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.schedule__calendar {
+    width: 550px;
+    height: 400px;
+    background-color: #cad5a9;
+    border-radius: 30px;
+}
+
+.footer {
+    margin-top: 150px;
+    height: 90px;
+    background-color: #cad5a9;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__title {
+    margin-right: 30px;
+}
+
 
 
