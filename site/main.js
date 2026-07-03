@@ -25,7 +25,7 @@ const questionItems = [
     },
     {
         title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur ' ,
+        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis' ,
         
     }
 
@@ -46,7 +46,7 @@ question.innerHTML = questionItems.map((item, index) =>{
 
 document.querySelector('.question-block').addEventListener('click', (e) => {
 
-    const title = e.target.closest('.question__title');
+    const title = e.target.closest('.question__item');
 
     if (!title) return;
 
