@@ -36,6 +36,11 @@ body {
   font-weight: 300;
 }
 
+h3 {
+    color: #8b6664;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
 
 html {
     scroll-behavior: smooth; 
@@ -52,7 +57,6 @@ html {
 .header {
     width: 100%;
     background-color: #FADAD9;
-    color: #412726;
 }
 
 .menu  {
@@ -63,7 +67,8 @@ html {
 }
 
 .menu__name h2 {
-    font-weight: 400;
+    font-weight: 500;
+    color: #785452;
 }
 
 .main-button {
@@ -79,6 +84,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
+    color: #785654;
 }
 
 .main-button:hover {
@@ -131,6 +138,7 @@ html {
 .photo-block__title {
     font-weight: 400;
     font-family: 'Quicksand', sans-serif;
+    color: #785452;
 }
 
 .social {
@@ -152,6 +160,10 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 
+.features p {
+   color: #8b6664;
+   font-weight: 400;
+}
 
 .about {
     grid-column: 2;
@@ -199,8 +211,7 @@ html {
     max-height: 550px;
     object-fit: cover;
     margin-top: 15px; 
-    border-bottom-left-radius: 29px;  
-    border-bottom-right-radius: 29px;
+    border-radius: 30px;
 }
 
 .social-items {
@@ -270,7 +281,8 @@ html {
 .custom-list__item {
     position: relative;         
     padding-left: 25px;         
-    color: #412726;            
+    color: #8b6664;
+    font-weight: 400;        
     font-size: 16px;
     line-height: 1.4;
     display: flex;
@@ -327,6 +339,8 @@ html {
 
 .description__text {
     width: 500px;
+    color: #8b6664;
+    font-weight: 400;
 }
 
 .description__img {
@@ -361,7 +375,13 @@ html {
     color: #412726;
 }
 
-.question-block {
+.questions-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question__list {
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -398,12 +418,11 @@ html {
     width: 100%;
     min-height: 30px;
     display: flex;
-    justify-content: center; 
-    align-items: center;
-    font-weight: 600;
+    justify-content: flex-start; 
+    align-items: start;
+    font-weight: 500;
     color: #412726;
     margin: 0;
-
     position: relative; 
     padding-right: 40px;
     box-sizing: border-box;
@@ -439,11 +458,10 @@ html {
     text-align: start;
     padding: 20px;
     box-sizing: border-box;
-    color: #412726;
-    overflow-y: auto;          
-    overflow-x: hidden;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(65, 39, 38, 0.2) transparent;
+    color: #8b6664;
+    font-weight: 400;
+    overflow: hidden;
+    font-weight: 400;
 }
 
 
@@ -527,8 +545,7 @@ html {
 }
 
 .contacts__title {
-    margin-right: 310px;
-    margin-bottom: 20px;
+    margin-right: 293px;
 }
 
 .contacts__wrapp {
@@ -573,10 +590,6 @@ html {
     margin-top: 200px;
 }
 
-.schedule__title {
-    margin-bottom: 50px;
-}
-
 .schedule__info {
     width: 550px;
     height: 200px;
@@ -598,6 +611,14 @@ html {
     background-color: #cad5a9;
     border-radius: 30px;
 }
+
+.schedule__name {
+    font-weight: 500;
+    color: #8b6664;
+}
+
+
+/* footer */
 
 .footer {
     margin-top: 150px;

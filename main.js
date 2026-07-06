@@ -5,34 +5,34 @@ let doc = document;
 const questionItems = [
     {
         title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur',
+        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis',
         
     },
     {
         title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur',
+        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis',
         
     },
     {
         title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur',
+        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae.',
+        
+    },
+    {
+        title: 'Lorem ipsum dolor sit amet, consecteturr',
+        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis',
         
     },
     {
         title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur',
-        
-    },
-    {
-        title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis' ,
+        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus' ,
         
     }
 
 ];
 
 
-const question = doc.querySelector('.question-block');
+const question = doc.querySelector('.question__list');
 
 question.innerHTML = questionItems.map((item, index) =>{
     return `
@@ -44,7 +44,7 @@ question.innerHTML = questionItems.map((item, index) =>{
         `
 }).join('');
 
-document.querySelector('.question-block').addEventListener('click', (e) => {
+document.querySelector('.questions-block').addEventListener('click', (e) => {
 
     const title = e.target.closest('.question__item');
 
