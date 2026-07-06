@@ -32,7 +32,7 @@ const questionItems = [
 ];
 
 
-const question = doc.querySelector('.question__list');
+const question = doc.querySelector('.questions__list');
 
 question.innerHTML = questionItems.map((item, index) =>{
     return `
