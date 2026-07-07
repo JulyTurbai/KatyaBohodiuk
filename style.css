@@ -117,10 +117,7 @@ html {
 }
 
 @media (max-width: 500px) {
-  .main-button {
-    width: 170px;
-    font-size: 13px;
-}
+
 .menu{
     padding: 0 10px;;
   }
@@ -562,7 +559,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 650px;
+    min-height: 650px;
 }
 
 .question__item {
@@ -764,6 +761,9 @@ html {
 
 
 @media (max-width: 830px) {
+    .article {
+        margin-top: 100px;
+    }
     .article__decor {
         top:500px;
     }
