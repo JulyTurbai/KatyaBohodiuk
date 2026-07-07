@@ -943,8 +943,8 @@ html {
 }
 
 .schedule__info {
-    width: 550px;
-    height: 200px;
+    max-width: 550px;
+    margin-right: 40px;
 }
 
 .schedule__text {
@@ -958,8 +958,8 @@ html {
 }
 
 .schedule__calendar {
-    width: 550px;
-    height: 400px;
+    width: 100%;
+    min-height: 400px;
     background-color: #cad5a9;
     border-radius: 30px;
 }
@@ -968,6 +968,65 @@ html {
     font-weight: 500;
     color: #8b6664;
 }
+
+/* schedule media */
+
+@media (max-width: 1220px) {
+    .schedule {
+        padding: 5px;
+    }
+    .schedule__info {
+    margin-right: 20px;
+}
+}   
+
+@media (max-width: 1150px) {
+    .schedule__main {
+        margin-top: 250px;
+    }
+
+}   
+
+@media (max-width: 1000px) {
+    .schedule__main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .schedule__info {
+    margin-bottom: 30px;
+    }
+
+}   
+
+@media (max-width: 550px) {
+    .schedule__main {
+        margin-top: 200px;
+    }
+
+}   
+
+@media (max-width: 480px) {
+    .schedule__main {
+        margin-top: 150px;
+    }
+
+}   
+
+@media (max-width: 420px) {
+    .schedule__main {
+        margin-top: 100px;
+    }
+
+}   
+
+@media (max-width: 365px) {
+    .schedule__main {
+        margin-top: 70px;
+    }
+
+}   
+
 
 
 /* footer */
