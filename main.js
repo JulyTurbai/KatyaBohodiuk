@@ -39,7 +39,7 @@ question.innerHTML = questionItems.map((item, index) =>{
             <div class="question__item">
                 <div class="question__title">${item.title} 
             </div>
-                <div class="question__content">${item.content}</div>
+                <div class="question__content"><p>${item.content}</p></div>
             </div>
         `
 }).join('');
