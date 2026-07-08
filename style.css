@@ -53,6 +53,32 @@ html {
     box-sizing: border-box;
 }
 
+.main-button {
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    color: #412726;
+    background-color: #F4ADAF;
+    cursor: pointer;
+    transition: box-shadow 5s ease; 
+    text-decoration: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #785654;
+    animation: pulse_button 1.5s infinite ease-in-out;
+}
+
+@media (max-width:600px) {
+    .main-button {
+        width: 300px;
+        height: 60px;
+        font-size: 17px;
+    }
+}
+
 /* header */
 
 
@@ -74,7 +100,7 @@ html {
     margin-right: 5px;
 }
 
-.main-button {
+.menu__button {
     width: 200px;
     height: 50px;
     border-radius: 30px;
@@ -126,7 +152,7 @@ html {
 }
 
 @media (max-width:400px) {
-    .main-button {
+    .menu__button {
         font-size: 14px;
     }
 }
