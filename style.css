@@ -89,9 +89,6 @@ html {
     align-items: center;
     font-weight: 500;
     color: #785654;
-}
-
-.main-button:hover {
     animation: pulse_button 1.5s infinite ease-in-out;
 }
 
@@ -168,6 +165,7 @@ html {
     text-transform: uppercase;
     font-weight: bolder;
     font-weight: bold;
+    border-radius: 30px;
 }
 
 .photo-block__title {
@@ -264,10 +262,8 @@ html {
     cursor: pointer;
     background-color: #cad5a9;
     transition: box-shadow 1.3s ease;
-}
+        animation: play_item 1.5s infinite ease-in-out;
 
-.social-items__item:hover {
-    animation: play_item 1.5s infinite ease-in-out;
 }
 
 @keyframes play_item {
