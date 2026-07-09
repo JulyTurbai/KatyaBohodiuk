@@ -4,29 +4,26 @@ let doc = document;
 
 const questionItems = [
     {
-        title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis',
+        title: 'Коли вперше потрібно показати дівчинку дитячому гінекологу?',
+        content: 'Перший профілактичний огляд рекомендований у період новонародженості, перед початком відвідування дитячого садка або школи, а також у 10–12 років. Позапланова консультація потрібна при будь-яких скаргах: виділеннях, свербежі, болю, порушеннях сечовипускання, травмах чи змінах менструального циклу.',
         
     },
     {
-        title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis',
+        title: 'Чи потрібен огляд, якщо дитину нічого не турбує?',
+        content: 'Так. Профілактичний огляд допомагає оцінити правильність розвитку статевих органів, своєчасно виявити захворювання, які можуть не мати симптомів, та відповісти на запитання батьків щодо розвитку дитини.'       
+    },
+    {
+        title: 'Чи болючий огляд у дитячого гінеколога?',
+        content:'У більшості випадків — ні. Огляд проводиться максимально делікатно, відповідно до віку дитини та лише в необхідному обсязі. У маленьких дівчаток він переважно обмежується оглядом зовнішніх статевих органів і не завдає болю.'
         
     },
     {
-        title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae.',
-        
+        title: 'Які виділення у дівчинки є нормою, а коли потрібно звернутися до лікаря?',
+        content:`У більшості дівчаток до початку статевого дозрівання виділень практично немає. У підлітковому віці поява прозорих або білуватих виділень без неприємного запаху, свербежу чи болю є фізіологічною. Якщо виділення стали жовтими, зеленими, кров'янистими (поза менструацією), мають різкий запах або супроводжуються свербежем чи болем, необхідна консультація дитячого гінеколога.`,   
     },
     {
-        title: 'Lorem ipsum dolor sit amet, consecteturr',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis',
-        
-    },
-    {
-        title: 'Lorem ipsum dolor sit amet, consectetur',
-        content: 'Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus ut veritatis quae quibusdam qui. Eius libero quae consequatur Tempore perspiciatis commodi impedit, ad necessitatibus ratione cupiditate ucimus' ,
-        
+        title: 'Коли починається статеве дозрівання і які зміни вважаються нормою?',
+        content:`У більшості дівчаток статеве дозрівання починається у віці 8–13 років. Першою ознакою зазвичай є збільшення молочних залоз, потім з'являється оволосіння, прискорюється ріст, а перша менструація найчастіше настає через 2–3 роки після початку розвитку грудей. Якщо ознаки пубертату з'явилися до 8 років або відсутні після 13 років, варто звернутися до дитячого гінеколога або дитячого ендокринолога для оцінки розвитку.`,  
     }
 
 ];
