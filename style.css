@@ -39,7 +39,7 @@ body {
 h3 {
     color: #8b6664;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 html {
@@ -182,7 +182,7 @@ html {
     grid-row: 1 / span 3;
     max-width: 550px;
     width: 100%;
-    height: 720px;
+    height: 725px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -211,6 +211,7 @@ html {
     grid-row: 2;
     width: 520px;
     height: 220px;
+    padding: 5px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -248,6 +249,7 @@ html {
     overflow: hidden;   
     border: 1px solid rgba(255, 255, 255, 0.45);
     box-shadow: 0 10px 40px rgba(226, 149, 156, 0.06);
+    background-color: #FADAD9;
 }
 
 .glass-block::before {
@@ -260,7 +262,7 @@ html {
     background-repeat: no-repeat;
     background-color: rgba(247, 228, 227, 0.4); 
     background-blend-mode: overlay; 
-    filter: blur(2px); 
+    filter: blur(3px); 
     z-index: 1; 
 }
 
@@ -516,26 +518,37 @@ html {
 .service {
     margin-top: 150px;
 }
+.service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .service__description {
     width: 100%;
     display: flex;
-    justify-content: end;
-    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 650px;
 }
 
 .description__block {
-    width: 700px;
-    height: 300px;
+    width: 500px;
+    min-height: 350px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     padding-right: 20px;
+    margin: 20px;
+    background-color: #FADAD9;
+    border-radius: 30px;
 }
 
 .description__wrap {
-    padding: 0 10px;
+    padding: 10px 5px;
+    margin-left: 50px;
 }
 
 .description__text {
@@ -545,15 +558,15 @@ html {
 }
 
 .description__decor {
-    position: absolute;
-    left: 0;
-    top: 100px;
-    z-index: 100;
-    max-width: 600px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .description__img {
-    width: 100%;
+    width: 87%;
     border-radius: 30px;
 }
 
@@ -572,6 +585,16 @@ html {
     }
 }
 
+@media (max-width: 1080px) {
+    .description__block {
+        width: 100%;
+        margin: 10px;
+    }
+    .description__img {
+        width: 100%;
+    }
+}
+
 @media (max-width: 550px) {
     .service {
         margin-top: 45px;
@@ -582,7 +605,7 @@ html {
 
 
 .questions {
-    margin-top: 350px;
+    margin-top: 150px;
     width: 100%;
     margin-bottom: 100px;
 }
@@ -601,7 +624,7 @@ html {
     justify-content: center;
     width: 100%;
     min-height: 650px;
-    padding: 5px;
+    padding: 10px 5px;
 }
 
 
@@ -717,7 +740,6 @@ html {
 @media (max-width: 1180px) {
     .questions {
         padding: 0 5px;
-        margin-top: 450px;
     }
 }
 
@@ -731,21 +753,14 @@ html {
 @media (max-width: 530px) {
     
     .questions {
-        margin-top: 380px;
-    }
-}
-
-@media (max-width: 450px) {
-    
-    .questions {
-        margin-top: 320px;
+        margin-top: 80px;
     }
 }
 
 @media (max-width: 360px) {
     
     .questions {
-        margin-top: 250px;
+        margin-top: 50px;
     }
     
     .questions h2{
