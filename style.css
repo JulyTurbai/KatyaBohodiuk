@@ -431,7 +431,9 @@ html {
 
 .custom-list__item {
     position: relative;         
-    padding-left: 25px;         
+    padding-left: 25px; 
+    height: 15px; 
+    margin-bottom: 10px;       
     color: #8b6664;
     font-weight: 400;        
     font-size: 14px;
@@ -475,11 +477,6 @@ html {
         max-width: 520px;
      }
 }
- /* @media (max-width: 1060px) {
-     .custom-list__item {
-    font-size: 18px;
-    }
-} */
 
 @media (max-width: 940px) {
     .topics {
@@ -501,15 +498,6 @@ html {
      }
     
 }
-
-/* @media (max-width: 415px) {
-   .custom-list__item {
-    font-size: 16px;
-    }
-    
-} */
-
-
 
 
 
@@ -562,7 +550,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .description__img {
