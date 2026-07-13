@@ -1020,7 +1020,7 @@ html {
 
 @media (max-width: 1220px) {
     .schedule {
-        padding: 5px;
+        padding: 0 10px;
     }
     .schedule__info {
     margin-right: 20px;
@@ -1029,7 +1029,7 @@ html {
 
 @media (max-width: 1150px) {
     .schedule__main {
-        margin-top: 250px;
+        margin-top: 450px;
     }
 
 }   
@@ -1048,29 +1048,29 @@ html {
 
 @media (max-width: 550px) {
     .schedule__main {
-        margin-top: 200px;
+        margin-top: 400px;
     }
 
 }   
 
 @media (max-width: 480px) {
     .schedule__main {
-        margin-top: 150px;
+        margin-top: 380px;
     }
 
 }   
 
 @media (max-width: 420px) {
     .schedule__main {
-        margin-top: 100px;
+        margin-top: 300px;
     }
 
 }   
 
 @media (max-width: 365px) {
-    .schedule__main {
+    /* .schedule__main {
         margin-top: 70px;
-    }
+    } */
 
 }   
 
