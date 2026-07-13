@@ -316,7 +316,7 @@ html {
 
 @media (max-width: 1220px) {
     .hero-block {
-        padding: 0 5px;
+        padding: 0 10px;
     }
 }
 
@@ -468,7 +468,7 @@ html {
 
 @media (max-width: 1220px) {
     .topics-block {
-        padding: 0 5px;
+        padding: 0 10px;
     }
 }
 
@@ -566,7 +566,7 @@ html {
         margin-top: 70px;
     }
     .service-block {
-        padding: 0px 5px;
+        padding: 0px 10px;
     }
     .description__decor {
     top: 270px;
@@ -815,7 +815,7 @@ html {
 }
 
 
-@media (max-width: 830px) {
+@media (max-width: 870px) {
     .article {
         margin-top: 10px;
     }
@@ -906,7 +906,7 @@ html {
 
 @media (max-width: 1150px) {
     .contacts {
-        padding: 5px;
+        padding: 0 10px;
         margin-top: 310px;
     }
 
@@ -935,9 +935,9 @@ html {
 
 }
 
-@media (max-width: 835px) {
+@media (max-width: 870px) {
     .contacts {
-        margin-top: 500px;
+        margin-top: 480px;
     }
 
     .contacts__wrapp {
@@ -947,7 +947,7 @@ html {
 
 @media (max-width: 510px) {
     .contacts {
-        margin-top: 450px;
+        margin-top: 380px;
     }
 
     .contacts__wrapp {
@@ -976,14 +976,13 @@ html {
 }
 
 @media (max-width: 380px) {
-    .contacts {
-        margin-top: 300px;
-    }
-
+    
     .contacts__decor {
     top: 340px;
+    }
 }
-}
+
+
 /* schedule */
 
 .schedule {
