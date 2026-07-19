@@ -2,6 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="canonical" href="Kateryna Bohodiuk">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">     
+    <meta name="msapplication-TileColor" content="#da532c"><meta name="theme-color" content="#ffffff">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <meta property="og:locale" content="uk-UA">
+    <meta property="og:site_name" content="Clapkey LLC">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@clapkey_LLC">
+    <meta property="twitter:creator" content="@clapkey_llc">
+    <title> ТАЙТЛ З АРІ </title>
+    <meta name="title" content="Тайтл з АРІ">
+    <meta name="description" content="ОПИС З АРІ">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="КАНОНІКЛ УКРЛ З АРІ">
+    <meta property="og:title" content="ТАЙТЛ З АРІ">
+    <meta property="og:description" content="ОПИС З АРІ">
+    <meta property="og:image" content="УКЛ СЕО КАРТИНКО">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="С">
+    <meta property="twitter:title" content="ТАЙТЛ З АРІ">
+    <meta property="twitter:description" content="ОПИС З АРІ">
+    <meta property="twitter:image" content="Картинко_УРЛ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KatyaBohodiuk</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -257,8 +283,21 @@
                             <p class="schedule__name">Kateryna Bohodiuk</p>
                         </div>
                         <div class="schedule__calendar">
-                           <div class="calendly-inline-widget" data-url="https://calendly.com/an-turbay/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=cad5a9" style="min-width:350px;height:300px;border-radius:30px"></div>
-                          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                            <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline-test1"></div>
+                                <script type="text/javascript">
+                                    (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.eu/embed/embed.js", "init");
+                                    Cal("init", "test1", {origin:"https://app.cal.eu"});
+                                    Cal.config = Cal.config || {};
+                                    Cal.config.forwardQueryParams = true;
+                                    Cal.ns.test1("inline", {
+                                    elementOrSelector:"#my-cal-inline-test1",
+                                    config: {"layout":"month_view","useSlotsViewOnSmallScreen":"true","theme":"light"},
+                                    calLink: "andrew-turbay-judrjd/test1",
+                                    });
+                                Cal.ns.test1("ui", {"theme":"light","cssVarsPerTheme":{"light":{"cal-brand":"#6e7d45"}},"hideEventTypeDetails":true,"layout":"month_view"});
+                                </script>
+                           <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/an-turbay/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=cad5a9" style="min-width:350px;height:575px;border-radius:30px"></div>
+                          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script> -->
                         </div>
                     </div>
                 </div>
